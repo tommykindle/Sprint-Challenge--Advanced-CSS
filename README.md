@@ -36,12 +36,17 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+Mobile first is the practice of building the website with mobile in mind and then scaling it to desktop. 
+
+3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units? 
+The font size of 62.5% gives us a base of 10 pixles allowing us to convert easier than the default browser base 8 of 16 pixles 
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is a way to short hand your css and organize it in a very structred manner then run it through a compiler and import that into one css document
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+My favorite concept is nesting, being able to structure things neatly in an easy to manage format. The concept that gives me the most trouble thus far is parametric mixins
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
