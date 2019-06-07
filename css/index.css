@@ -1,3 +1,8 @@
+.flex-mixin {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
