@@ -4,11 +4,19 @@ nav{
     flex-direction: row; 
     justify-content: space-evenly;
     margin: 0 auto;
-    width: 50%;  
+    width: 400px;  
     a{
         text-decoration: none; 
         color: black; 
         font-size: 1.4rem;
-        padding: 1.5rem;  
+        padding: 1.5rem 0;  
+    }
+    @media @phone{
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 90%;
+         
+         
     }
 }

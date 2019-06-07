@@ -3,7 +3,7 @@
 .home {
 
   .intro {
-
+    width:100%; 
     h2 {
       padding: 15px;
     }
@@ -11,8 +11,14 @@
     p {
       padding:0 15px;
     }
+    
+      img{
+        width: 100%;
+        margin: 0 auto;  
+      }
+    
   
-  }
+  } 
 
   .space-images {
     display: flex;
@@ -24,6 +30,17 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    }
+    @media @phone{
+      img:nth-child(2){
+        display:none; 
+      }
+      img:nth-child(3){
+        display:none; 
+      }
+      img{
+        width: 90%; 
+      }
     }
   }
 
