@@ -264,12 +264,38 @@ footer {
   border-radius: 8px;
   color: white;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn button {
+    width: 90%;
+    padding: 10px 0;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    margin-left: 0;
+  }
 }
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 0;
+  }
+  .home .walk .walk-img {
+    width: 90%;
+    margin: none;
+  }
+  .home .walk .walk-text {
+    width: 90%;
+  }
 }
